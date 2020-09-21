@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h2 class="logo"><img src="img/mi.png" alt="MI" width="90px"></h2>
+            <div class="title"><b>Selamat Datang</b>
+                <p>D3 Manajemen Informatika UNDIKSHA</p>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Navbar -->
+        <nav class="menu">
+            <div class="logo">
+                <a href="#">
+                    <h2>MI 2019</h2>
+                </a>
+
+            </div>
+            <ul class="menu-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Mahasiswa</a></li>
+                <li><a href="#">Jadwal</a></li>
+                <li><a href="#"><b>Login</b></a></li>
+            </ul>
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+
+        <!-- Content -->
+
+        <!-- sampul -->
+        <div class="pictures">
+            <div class="main">
+                <h2 class="heading">Manajemen Informatika</h2>
+                <h1 class="sub-heading">2019</h1>
+            </div>
+            <div class="features picture-1">
+                <h4 class="features heading">MI 2019</h4>
+            </div>
+            <div class="features picture-2">
+                <h4 class="features heading">MI 2019</h4>
+            </div>
+        </div>
+        <!-- EndSampul -->
+
+        <!-- Section MI-->
+        <section class="mi">
+            <h2 class="judul">Manajemen Informatika</h2>
+            <p>Manajemen Informatika merupakan salah satu program studi jurusan Teknik Informatika Fakultas Teknik dan
+                Kejuruan Universitas
+                Pendidikan Ganesha. Manajemen Informatika 2019 dengan 21 Mahasiswa yang aktif untuk menyelesaikan study
+                selama 3 tahun.</p>
+        </section>
+        <!-- EndSection MI-->
+
+        <!-- galery -->
+        <section class="galery">
+            <div class="judul">
+                <h2>Galery</h2>
+                <h4>Manajemen Informatika</h4>
+            </div>
+            <img src="img/gal1.png" alt="" width="300px">
+            <img src="img/gal2.png" alt="" width="300px">
+            <img src="img/gal3.png" alt="" width="300px">
+            <img src="img/gal4.png" alt="" width="300px">
+            <img src="img/gal5.png" alt="" width="300px">
+            <img src="img/gal6.png" alt="" width="300px">
+            <img src="img/gal7.png" alt="" width="300px">
+            <img src="img/gal8.png" alt="" width="300px">
+        </section>
+        <!-- Endgalery -->
+
+        <!-- EndContent -->
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Copyright 2020 | Built With <img src="img/heart-fill.svg" width="20" height="20" title="love"> by <a
+                href="http://instagram.com/andi_suartika">Andi Suartika</a>.</p>
+    </footer>
+    <!-- EndFooter -->
+
+    <!-- Javascript Navbar -->
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+    </script>
+    <!-- End Js -->
+</body>
+
+</html>
